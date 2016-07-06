@@ -30,6 +30,29 @@ main {
 .custom-color-sec-text.text-dark {
   color: #23e887 !important; }
 
+/* Scrollbar Style : START */
+::scrollbar {
+  background-color: #eee !important;
+  width: 6px;
+  height: 6px !important; }
+
+::-webkit-scrollbar {
+  background-color: #eee !important;
+  width: 6px;
+  height: 6px !important; }
+
+::-webkit-scrollbar:hover {
+  background-color: #eee !important;
+  width: 6px;
+  height: 6px !important; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #673ab7 !important; }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #673ab7; }
+
+/* Scrollbar Style : END */
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
   list-style-type: none;
