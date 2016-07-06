@@ -1,0 +1,377 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
+.custom-color {
+  background-color: #673ab7 !important; }
+
+.custom-color-text {
+  color: #673ab7 !important; }
+
+.custom-color.dark {
+  background-color: #482393 !important; }
+
+.custom-color-text.text-dark {
+  color: #482393 !important; }
+
+.custom-color-sec {
+  background-color: #68efad !important; }
+
+.custom-color-sec-text {
+  color: #68efad !important; }
+
+.custom-color-sec.dark {
+  background-color: #23e887 !important; }
+
+.custom-color-sec-text.text-dark {
+  color: #23e887 !important; }
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #482393; }
+
+/* Float the list items side by side */
+ul.topnav li {
+  float: left; }
+
+/* Style the links inside the list items */
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 14px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 13px; }
+
+ul.topnav li a i {
+  position: relative;
+  top: 3px; }
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+  background-color: #2a1455; }
+
+/* Hide this top menu on small screens */
+@media only screen and (max-width: 1026px) {
+  ul.topnav {
+    display: none; } }
+.empty {
+  height: 59px; }
+
+.black-text {
+  color: #000 !important; }
+
+.title {
+  font-size: 30px;
+  font-family: "Roboto";
+  color: rgba(0, 0, 0, 0.71);
+  text-transform: uppercase;
+  line-height: 0.8;
+  text-align: center !important; }
+
+hr.custom {
+  margin-top: -7px !important;
+  height: 20px;
+  background: url(../img/hr.png) no-repeat center;
+  border: none; }
+
+ul.categ {
+  background: transparent;
+  position: static;
+  box-shadow: none;
+  text-align: center;
+  padding: 30px 0px 10px 0px; }
+
+.categ li {
+  display: inline-block; }
+
+.categ li a {
+  display: inline-block;
+  padding: 0 1em;
+  width: auto;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(81, 95, 103, 0.902);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714; }
+
+.categ li a:hover {
+  color: #673ab7; }
+
+.categ li a.selected {
+  background: transparent;
+  color: #673ab7;
+  border: 2px solid #673ab7; }
+
+hr::after {
+  margin-bottom: 30px; }
+
+.card-content p {
+  font-size: 14px;
+  color: #616161 !important;
+  line-height: 1.5;
+  text-align: center; }
+
+.card .card-date {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 30px 20px;
+  font-size: 12px;
+  font-weight: 300; }
+
+.card .card-title {
+  padding: 20px 20px 50px 20px !important; }
+
+@media screen and (min-width: 1026px) {
+  .card .card-button {
+    position: absolute;
+    left: 80%;
+    top: 70%;
+    z-index: 399; } }
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .card .card-button {
+    position: absolute;
+    left: 70%;
+    top: 63%;
+    z-index: 399; } }
+@media only screen and (max-width: 768px) and (min-width: 728px) {
+  .card .card-button {
+    position: absolute;
+    left: 70%;
+    top: 59%;
+    z-index: 399; } }
+@media only screen and (max-width: 728px) and (min-width: 600px) {
+  .card .card-button {
+    position: absolute;
+    left: 70%;
+    top: 51%;
+    z-index: 399; } }
+@media only screen and (max-width: 600px) {
+  .card .card-button {
+    position: absolute;
+    left: 85%;
+    top: 81%;
+    z-index: 399; } }
+/* */
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.1); }
+  100% {
+    transform: none; } }
+.is-animated {
+  animation: .6s zoom-in; }
+
+.carousel {
+  min-height: 250px; }
+
+.back-cover {
+  background-image: url("../img/slide2.png");
+  background-size: cover;
+  padding-bottom: 0;
+  background-position: 0 -200px; }
+
+.overlay {
+  background-color: rgba(103, 58, 183, 0.4);
+  background-blend-mode: multiply; }
+
+.profile {
+  transition: box-shadow .25s;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+  .profile .top {
+    width: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative; }
+    .profile .top .head {
+      border-radius: 50%;
+      margin: 0 auto;
+      width: 110px;
+      height: 110px;
+      position: absolute;
+      top: 100%;
+      transform: translateY(-50%);
+      left: 29%; }
+  .profile .more {
+    float: right;
+    cursor: pointer;
+    margin: 10px; }
+  .profile .name {
+    font-size: 24px;
+    font-family: "Roboto";
+    color: #616161;
+    line-height: 1.35;
+    margin: 70px 0px 0px 20px;
+    font-weight: 300; }
+  .profile .job {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: #616161;
+    font-weight: bold;
+    line-height: 0.184; }
+  .profile .bottom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+    .profile .bottom li {
+      display: inline; }
+      .profile .bottom li a {
+        display: inline-block;
+        text-align: center;
+        padding: 14px 25px 10px 25px;
+        text-decoration: none;
+        color: #482393; }
+
+.profile-back {
+  transition: box-shadow .25s;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+  background-color: #673ab7;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+  .profile-back .more {
+    float: right;
+    cursor: pointer;
+    margin: 10px;
+    transform: rotate(90deg);
+    position: relative;
+    z-index: 22; }
+  .profile-back .top {
+    width: 100%;
+    height: 160px;
+    position: relative;
+    background-image: -webkit-gradient(linear, 0 top, 0 bottom, from(#482393), to(rgba(255, 255, 255, 0))); }
+    .profile-back .top .head {
+      border-radius: 50%;
+      margin: 0 auto;
+      width: 110px;
+      height: 110px;
+      position: absolute;
+      top: 55%;
+      transform: translateY(-50%);
+      left: 29%; }
+  .profile-back .name {
+    font-size: 24px;
+    font-family: "Roboto";
+    color: #fff;
+    line-height: 1.35;
+    margin: 10px 0px -26px 20px;
+    font-weight: 300; }
+  .profile-back .location {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: white;
+    text-transform: uppercase;
+    text-align: center; }
+  .profile-back .followers {
+    font-size: 30px;
+    font-family: "Roboto";
+    color: white;
+    line-height: 0.098;
+    font-weight: 100;
+    text-align: center; }
+    .profile-back .followers p {
+      font-size: 14px;
+      font-family: "Roboto";
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.929; }
+  .profile-back .bottom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%; }
+    .profile-back .bottom li {
+      display: inline; }
+      .profile-back .bottom li a {
+        display: inline-block;
+        text-align: center;
+        padding: 14px 25px 10px 25px;
+        text-decoration: none;
+        color: white; }
+
+.spinEffect {
+  -webkit-animation: spin 0.5s 1 linear;
+  -webkit-animation-fill-mode: forwards; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(90deg); } }
+.spinBack {
+  -webkit-animation: spinback 0.5s 1 linear;
+  -webkit-animation-fill-mode: forwards; }
+
+@-webkit-keyframes spinback {
+  0% {
+    -webkit-transform: rotate(90deg); }
+  100% {
+    -webkit-transform: rotate(0deg); } }
+#hoover {
+  display: none; }
+
+/* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000px;
+  overflow: hidden;
+  min-height: 400px; }
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg); }
+
+/*
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+*/
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative; }
+
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg); }
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg); }
+
+.footer-copyright div a {
+  color: white; }
+
+.owl-nav {
+  display: none !important; }
+
+/*# sourceMappingURL=custom.css.map */
