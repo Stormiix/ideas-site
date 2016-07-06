@@ -246,6 +246,22 @@ hr::after {
 .carousel{
 	min-height : 250px;
 }
+.page-header{
+    width: 100%;
+		.header{
+			background-image: url('../img/slide3.jpg');
+			background-position: center;
+			background-size :cover;  
+			padding:40px 0px 40px 0px;
+			h2{
+				color:white;
+				text-align:center;
+				font-weight:200;
+			}
+			
+		}
+
+}
 .back-cover{
     background-image: url('../img/slide2.png');
 	
