@@ -56,124 +56,119 @@
         
         
         <div class="section">
+            
             <div class="row">
-                <div class=" col s8">
-                    <div class="col s8">
-                        <ul class="categ filter left-align">
-                            Category :
-                            <li><a href="#" role="button" data-filter="all" class="all selected ">All</a></li>
-                            <li><a href="#" role="button" data-filter="categ1">Categ 1</a></li>
-                            <li><a href="#" role="button" data-filter="categ2">Categ 2</a></li>
-                            <li><a href="#" role="button" data-filter="categ3">Categ 3</a></li>
-                        </ul></div>
-                        <div class="col s4"> 
-
-
+                <div class="col s12 m8 l8">
+                    <ul class="categ filter left-align">
+                        Category :
+                        <li><a href="#" role="button" data-filter="all" class="all selected ">All</a></li>
+                        <li><a href="#" role="button" data-filter="categ1">Categ 1</a></li>
+                        <li><a href="#" role="button" data-filter="categ2">Categ 2</a></li>
+                        <li><a href="#" role="button" data-filter="categ3">Categ 3</a></li>
+                    </ul>
+                    <div class="boxes center-align">
+                        <?php
+                        for($x = 1; $x <= 12; $x++){
+                        ?>
+                        
+                        <!--   Item   -->
+                        <div class="col s12 m4" data-category="categ<?= rand(1,3); ?>">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/image0<?= rand(1,3); ?>.jpg">
+                                    <span class="card-title">Card Title #<?= rand(1,3); ?></span>
+                                    <span class="card-date">Thu, June <?= rand(1,30); ?></span>
+                                </div>
+                                
+                                <div class="card-content">
+                                    <p><?php echo substr("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat.", 0, 110); ?></p>
+                                </div>
+                                <div class="card-action center-align">
+                                    <a class="waves-effect waves-light btn custom-color"><i class="material-icons left">visibility</i>button</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--   Item   -->
+                        <?php } ?>
+                        
+                    </div>
+                    <div class="col s12 center-align">
+                        <a class="waves-effect waves-light btn custom-color-sec btn-large" href="ideas">Load More</a>
+                    </div>
+                    
+                </div>
+                <div class="sidebar col s12 m4 l4">
+                    <div class="container">
+                        <div class="widget">
+                            <div class="widget-title">
+                                <h5>Search ideas </h5>
+                            </div>
+                            <div class="widget-content">
+                                <form class="searchform">
+                                    
+                                    <input id="search" type="text" placeholder='Type to search...' required>
+                                    
+                                </form>
+                            </div></div>
                         </div>
                     </div></div>
-                    <div class="row">
-                        <div class="col s12 m8 l8">
-                            
-                            <div class="boxes center-align">
-                                <?php
-                                for($x = 1; $x <= 12; $x++){
-                                ?>
-                                
-                                <!--   Item   -->
-                                <div class="col s12 m4" data-category="categ<?= rand(1,3); ?>">
-                                    <div class="card">
-                                        <div class="card-image">
-                                            <img src="img/image0<?= rand(1,3); ?>.jpg">
-                                            <span class="card-title">Card Title #<?= rand(1,3); ?></span>
-                                            <span class="card-date">Thu, June <?= rand(1,30); ?></span>
-                                        </div>
-                                        
-                                        <div class="card-content">
-                                            <p><?php echo substr("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat.", 0, 110); ?></p>
-                                        </div>
-                                        <div class="card-action center-align">
-                                            <a class="waves-effect waves-light btn custom-color"><i class="material-icons left">visibility</i>button</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--   Item   -->
-                                <?php } ?>
-                                
+                </div>
+                
+                
+                
+                
+                <footer class="page-footer dark-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col l6 s12">
+                                <h5 class="white-text">Why <span class="highlight">inspireme.</span> ?</h5>
+                                <p class="grey-text text-lighten-4">We know there is plenty of people with entrepreneurial <i>*this word actually exists*</i> passion waiting for the idea to finally start something meaningful. We also know there is a lot of people not satisfied with product options they have at the moment. So why not to try bring these two together?</p>
                             </div>
-                            <div class="col s12 center-align">
-                                <a class="waves-effect waves-light btn custom-color-sec btn-large" href="ideas">Load More</a>
-                            </div>
-                            
-                        </div>
-                        <div class="col s12 m4 l4"> 
-                            <div class="container">
-                                <h5>Search ideas : </h5>
-                                  <form class="searchform">
-                                     
-                                      <input id="search" type="text" placeholder='Type to search...' required>
- 
-                                  </form>
-
-                            </div>
-
-                        </div></div>
-                    </div>
-                    
-                    
-                    
-                    
-                    <footer class="page-footer dark-footer">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col l6 s12">
-                                    <h5 class="white-text">Why <span class="highlight">inspireme.</span> ?</h5>
-                                    <p class="grey-text text-lighten-4">We know there is plenty of people with entrepreneurial <i>*this word actually exists*</i> passion waiting for the idea to finally start something meaningful. We also know there is a lot of people not satisfied with product options they have at the moment. So why not to try bring these two together?</p>
-                                </div>
-                                <div class="col l3 s12">
-                                    <h5 class="white-text">Helpful Links:</h5>
-                                    <ul>
-                                        <li><a class="white-text" href="#">About</a></li>
-                                        <li><a class="white-text" href="#">Privacy</a></li>
-                                        <li><a class="white-text" href="#">Terms</a></li>
-                                        <li><a class="white-text" href="#">FAQs</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col l3 s12">
-                                    <h5 class="white-text">Follow:</h5>
-                                    <ul>
-                                        <li> <a class="white-text tooltipped" data-position="right" data-delay="50" data-tooltip="Facebook Page" href="" target="_blank" title="Facebook"><span class="fa-stack fa-lg">
-                                            <i class="fa fa-square-o fa-stack-2x"></i>
-                                            <i class="fa fa-facebook fa-stack-1x"></i>
-                                        </span>
-                                    Facebook</a></li>
-                                    <li>
-                                        <a class="white-text tooltipped" data-position="right" data-delay="50" data-tooltip="Twitter Account" href="" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg">
-                                            <i class="fa fa-square-o fa-stack-2x"></i>
-                                            <i class="fa fa-twitter fa-stack-1x"></i>
-                                        </span>
-                                    Twitter</a></li>
-                                    <li>
-                                        <a class="white-text tooltipped" data-position="right" data-delay="50" data-tooltip="GitHub Repo" href="" target="_blank" title="GitHub"><span class="fa-stack fa-lg">
-                                            <i class="fa fa-square-o fa-stack-2x"></i>
-                                            <i class="fa fa-github fa-stack-1x"></i>
-                                        </span>
-                                    GitHub</a></li>
+                            <div class="col l3 s12">
+                                <h5 class="white-text">Helpful Links:</h5>
+                                <ul>
+                                    <li><a class="white-text" href="#">About</a></li>
+                                    <li><a class="white-text" href="#">Privacy</a></li>
+                                    <li><a class="white-text" href="#">Terms</a></li>
+                                    <li><a class="white-text" href="#">FAQs</a></li>
                                 </ul>
                             </div>
+                            <div class="col l3 s12">
+                                <h5 class="white-text">Follow:</h5>
+                                <ul>
+                                    <li> <a class="white-text tooltipped" data-position="right" data-delay="50" data-tooltip="Facebook Page" href="" target="_blank" title="Facebook"><span class="fa-stack fa-lg">
+                                        <i class="fa fa-square-o fa-stack-2x"></i>
+                                        <i class="fa fa-facebook fa-stack-1x"></i>
+                                    </span>
+                                Facebook</a></li>
+                                <li>
+                                    <a class="white-text tooltipped" data-position="right" data-delay="50" data-tooltip="Twitter Account" href="" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg">
+                                        <i class="fa fa-square-o fa-stack-2x"></i>
+                                        <i class="fa fa-twitter fa-stack-1x"></i>
+                                    </span>
+                                Twitter</a></li>
+                                <li>
+                                    <a class="white-text tooltipped" data-position="right" data-delay="50" data-tooltip="GitHub Repo" href="" target="_blank" title="GitHub"><span class="fa-stack fa-lg">
+                                        <i class="fa fa-square-o fa-stack-2x"></i>
+                                        <i class="fa fa-github fa-stack-1x"></i>
+                                    </span>
+                                GitHub</a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="footer-copyright">
-                        <div class="container">
-                            © 2016 All rights reserved. Created by <a href="https://stormix.co/">Anas Mazouni</a> .
-                        </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        © 2016 All rights reserved. Created by <a href="https://stormix.co/">Anas Mazouni</a> .
                     </div>
-                </footer>
-                <!--  Scripts-->
-                <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-                <script src="js/TweenMax.min.js"></script>
-                <script src="js/ScrollToPlugin.min.js"></script>
-                <script src="js/materialize.js"></script>
-                <script src="js/init.js"></script>
-                <script src="js/common.js"></script>
-            </body>
-        </html>
+                </div>
+            </footer>
+            <!--  Scripts-->
+            <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script src="js/TweenMax.min.js"></script>
+            <script src="js/ScrollToPlugin.min.js"></script>
+            <script src="js/materialize.js"></script>
+            <script src="js/init.js"></script>
+            <script src="js/common.js"></script>
+        </body>
+    </html>
