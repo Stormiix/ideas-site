@@ -1,0 +1,30 @@
+$custom-color: ("base": #55585D, "dark": darken(#55585D, 15%), "light-dark": darken(#55585D, 5%));
+$custom-color-sec: ("base": #e62739, "dark": darken(#e62739, 15%));
+$colors: ("custom-color": $custom-color, "custom-color-sec": $custom-color-sec);
+
+// Color Classes
+@each $color_name, $color in $colors {
+    @each $color_type, $color_value in $color {
+        @if $color_type == "base" {
+            .#{$color_name} {
+                background-color: $color_value !important;
+            }
+
+            .#{$color_name}-text {
+                color: $color_value !important;
+            }
+        }
+        @else {
+            .#{$color_name}.#{$color_type} {
+                background-color: $color_value !important;
+            }
+
+            .#{$color_name}-text.text-#{$color_type} {
+                color: $color_value !important;
+            }
+        }
+    }
+}
+
+$dark: map-get($custom-color, "dark");
+$darker: darken($dark, 15%);

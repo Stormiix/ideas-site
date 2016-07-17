@@ -1,0 +1,396 @@
+/* line 9, ../sass/_custom_color.scss */
+.custom-color {
+  background-color: #55585D !important; }
+
+/* line 13, ../sass/_custom_color.scss */
+.custom-color-text {
+  color: #55585D !important; }
+
+/* line 18, ../sass/_custom_color.scss */
+.custom-color.dark {
+  background-color: #303235 !important; }
+
+/* line 22, ../sass/_custom_color.scss */
+.custom-color-text.text-dark {
+  color: #303235 !important; }
+
+/* line 18, ../sass/_custom_color.scss */
+.custom-color.light-dark {
+  background-color: #494b50 !important; }
+
+/* line 22, ../sass/_custom_color.scss */
+.custom-color-text.text-light-dark {
+  color: #494b50 !important; }
+
+/* line 9, ../sass/_custom_color.scss */
+.custom-color-sec {
+  background-color: #e62739 !important; }
+
+/* line 13, ../sass/_custom_color.scss */
+.custom-color-sec-text {
+  color: #e62739 !important; }
+
+/* line 18, ../sass/_custom_color.scss */
+.custom-color-sec.dark {
+  background-color: #ad1422 !important; }
+
+/* line 22, ../sass/_custom_color.scss */
+.custom-color-sec-text.text-dark {
+  color: #ad1422 !important; }
+
+/*---- Genral classes end -------*/
+/*Change icons size here*/
+/* line 4, ../sass/_custom_social.scss */
+.social-icons .fa {
+  font-size: 1.8em; }
+
+/*Change icons circle size and color here*/
+/* line 9, ../sass/_custom_social.scss */
+.social-icons .fa {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFF;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+/* line 23, ../sass/_custom_social.scss */
+.social-icons.icon-circle .fa {
+  border-radius: 50%; }
+
+/* line 27, ../sass/_custom_social.scss */
+.social-icons.icon-rounded .fa {
+  border-radius: 5px; }
+
+/* line 31, ../sass/_custom_social.scss */
+.social-icons.icon-flat .fa {
+  border-radius: 0; }
+
+/* line 35, ../sass/_custom_social.scss */
+.social-icons .fa:hover, .social-icons .fa:active {
+  color: #FFF;
+  -webkit-box-shadow: 1px 1px 3px #333;
+  -moz-box-shadow: 1px 1px 3px #333;
+  box-shadow: 1px 1px 3px #333; }
+
+/* line 42, ../sass/_custom_social.scss */
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1); }
+
+/* line 50, ../sass/_custom_social.scss */
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active {
+  -webkit-transform: scale(1.1) rotate(360deg);
+  -moz-transform: scale(1.1) rotate(360deg);
+  -ms-transform: scale(1.1) rotate(360deg);
+  -o-transform: scale(1.1) rotate(360deg);
+  transform: scale(1.1) rotate(360deg); }
+
+/* line 58, ../sass/_custom_social.scss */
+.social-icons .fa-adn {
+  background-color: #504e54; }
+
+/* line 62, ../sass/_custom_social.scss */
+.social-icons .fa-apple {
+  background-color: #aeb5c5; }
+
+/* line 66, ../sass/_custom_social.scss */
+.social-icons .fa-android {
+  background-color: #A5C63B; }
+
+/* line 70, ../sass/_custom_social.scss */
+.social-icons .fa-bitbucket, .social-icons .fa-bitbucket-square {
+  background-color: #003366; }
+
+/* line 74, ../sass/_custom_social.scss */
+.social-icons .fa-bitcoin, .social-icons .fa-btc {
+  background-color: #F7931A; }
+
+/* line 78, ../sass/_custom_social.scss */
+.social-icons .fa-css3 {
+  background-color: #1572B7; }
+
+/* line 82, ../sass/_custom_social.scss */
+.social-icons .fa-dribbble {
+  background-color: #F46899; }
+
+/* line 86, ../sass/_custom_social.scss */
+.social-icons .fa-dropbox {
+  background-color: #018BD3; }
+
+/* line 90, ../sass/_custom_social.scss */
+.social-icons .fa-facebook, .social-icons .fa-facebook-square {
+  background-color: #3C599F; }
+
+/* line 94, ../sass/_custom_social.scss */
+.social-icons .fa-flickr {
+  background-color: #FF0084; }
+
+/* line 98, ../sass/_custom_social.scss */
+.social-icons .fa-foursquare {
+  background-color: #0086BE; }
+
+/* line 102, ../sass/_custom_social.scss */
+.social-icons .fa-github, .social-icons .fa-github-alt, .social-icons .fa-github-square {
+  background-color: #070709; }
+
+/* line 106, ../sass/_custom_social.scss */
+.social-icons .fa-google-plus, .social-icons .fa-google-plus-square {
+  background-color: #CF3D2E; }
+
+/* line 110, ../sass/_custom_social.scss */
+.social-icons .fa-html5 {
+  background-color: #E54D26; }
+
+/* line 114, ../sass/_custom_social.scss */
+.social-icons .fa-instagram {
+  background-color: #A1755C; }
+
+/* line 118, ../sass/_custom_social.scss */
+.social-icons .fa-linkedin, .social-icons .fa-linkedin-square {
+  background-color: #0085AE; }
+
+/* line 122, ../sass/_custom_social.scss */
+.social-icons .fa-linux {
+  background-color: #FBC002;
+  color: #333; }
+
+/* line 127, ../sass/_custom_social.scss */
+.social-icons .fa-maxcdn {
+  background-color: #F6AE1C; }
+
+/* line 131, ../sass/_custom_social.scss */
+.social-icons .fa-pagelines {
+  background-color: #241E20;
+  color: #3984EA; }
+
+/* line 136, ../sass/_custom_social.scss */
+.social-icons .fa-pinterest, .social-icons .fa-pinterest-square {
+  background-color: #CC2127; }
+
+/* line 140, ../sass/_custom_social.scss */
+.social-icons .fa-renren {
+  background-color: #025DAC; }
+
+/* line 144, ../sass/_custom_social.scss */
+.social-icons .fa-skype {
+  background-color: #01AEF2; }
+
+/* line 148, ../sass/_custom_social.scss */
+.social-icons .fa-stack-exchange {
+  background-color: #245590; }
+
+/* line 152, ../sass/_custom_social.scss */
+.social-icons .fa-stack-overflow {
+  background-color: #FF7300; }
+
+/* line 156, ../sass/_custom_social.scss */
+.social-icons .fa-trello {
+  background-color: #265A7F; }
+
+/* line 160, ../sass/_custom_social.scss */
+.social-icons .fa-tumblr, .social-icons .fa-tumblr-square {
+  background-color: #314E6C; }
+
+/* line 164, ../sass/_custom_social.scss */
+.social-icons .fa-twitter, .social-icons .fa-twitter-square {
+  background-color: #32CCFE; }
+
+/* line 168, ../sass/_custom_social.scss */
+.social-icons .fa-vimeo-square {
+  background-color: #229ACC; }
+
+/* line 172, ../sass/_custom_social.scss */
+.social-icons .fa-vk {
+  background-color: #375474; }
+
+/* line 176, ../sass/_custom_social.scss */
+.social-icons .fa-weibo {
+  background-color: #D72B2B; }
+
+/* line 180, ../sass/_custom_social.scss */
+.social-icons .fa-windows {
+  background-color: #12B6F3; }
+
+/* line 184, ../sass/_custom_social.scss */
+.social-icons .fa-xing, .social-icons .fa-xing-square {
+  background-color: #00555C; }
+
+/* line 188, ../sass/_custom_social.scss */
+.social-icons .fa-youtube, .social-icons .fa-youtube-play, .social-icons .fa-youtube-square {
+  background-color: #C52F30; }
+
+/* line 4, ../sass/login.scss */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+  box-sizing: border-box; }
+
+/* line 11, ../sass/login.scss */
+body {
+  background: #eee; }
+
+/* line 15, ../sass/login.scss */
+h1 {
+  font-size: 4.2rem;
+  line-height: 110%;
+  margin: 2.1rem 0 1.68rem 0; }
+
+/* line 21, ../sass/login.scss */
+.card-panel {
+  transition: box-shadow .25s;
+  padding: 20px;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+/* line 30, ../sass/login.scss */
+#form {
+  position: relative;
+  top: 70px;
+  width: 400px;
+  margin: 30px auto; }
+  /* line 36, ../sass/login.scss */
+  #form .logo {
+    color: #e62739;
+    font-family: 'Lobster', cursive;
+    text-align: center; }
+  /* line 42, ../sass/login.scss */
+  #form h4 {
+    font-size: 18px;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: center; }
+  /* line 50, ../sass/login.scss */
+  #form .input-field {
+    margin: 25px 0px; }
+
+/* line 55, ../sass/login.scss */
+.remember {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #959595;
+  font-style: italic; }
+
+/* line 62, ../sass/login.scss */
+form {
+  width: 100%;
+  height: 100%; }
+  /* line 66, ../sass/login.scss */
+  form h5 {
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: #252525;
+    text-transform: uppercase; }
+
+/* line 75, ../sass/login.scss */
+#success {
+  padding: 18px;
+  background: #4caf50;
+  border-left: 4px solid #81c784;
+  font-size: 15px;
+  letter-spacing: .5px;
+  color: #fff;
+  margin-bottom: -14px;
+  display: none; }
+
+/* line 86, ../sass/login.scss */
+#error {
+  padding: 18px;
+  background: #ef5350;
+  border-left: 4px solid #ff8a80;
+  font-size: 15px;
+  letter-spacing: .5px;
+  color: #fff;
+  margin-bottom: -14px;
+  display: none; }
+
+/* line 97, ../sass/login.scss */
+#error li {
+  list-style: none;
+  padding-bottom: 8px; }
+
+/* line 102, ../sass/login.scss */
+#error li:last-child {
+  padding-bottom: 0; }
+
+/* label focus color */
+/* line 109, ../sass/login.scss */
+label {
+  color: #e62739; }
+
+/* line 113, ../sass/login.scss */
+.input-field input[type=text]:focus + label {
+  color: #e62739; }
+
+/* label underline focus color */
+/* line 118, ../sass/login.scss */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #e62739;
+  box-shadow: 0 1px 0 0 #e62739; }
+
+/* label underline focus color */
+/* line 124, ../sass/login.scss */
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #e62739;
+  box-shadow: 0 1px 0 0 #e62739; }
+
+/* label underline focus color */
+/* line 130, ../sass/login.scss */
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid #e62739;
+  box-shadow: 0 1px 0 0 #e62739; }
+
+/* line 135, ../sass/login.scss */
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #e62739; }
+
+/* line 151, ../sass/login.scss */
+[type="checkbox"]:checked + label:before {
+  border-right: 2px solid #e62739;
+  border-bottom: 2px solid #e62739; }
+
+/* line 156, ../sass/login.scss */
+.forgot {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #959595;
+  font-style: italic;
+  text-align: right;
+  text-decoration: none; }
+
+/* line 165, ../sass/login.scss */
+.list-unstyled {
+  padding-left: 0;
+  list-style: none; }
+
+/* line 170, ../sass/login.scss */
+.list-inline li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px; }
